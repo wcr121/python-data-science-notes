@@ -8,8 +8,7 @@
 | 时间 | 内容 | 状态 |
 |------|------|------|
 | 2026.09 | Python深化（面向对象/装饰器/生成器） | 🚧 进行中 |
-📅 Week 01: Python OOP
-Day 01: Class Basics - 银行账户练习
+📅 Week 01: Python OOP | Day 01: Class Basics - 银行账户练习| 🚧 进行中 |
 
 
 
