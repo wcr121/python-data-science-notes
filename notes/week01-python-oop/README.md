@@ -79,11 +79,12 @@ class ClassName:
 - **实例属性**：每个实例独立，在 `__init__` 中定义
 '''class BankAccount:
     total_accounts = 0          # ← 类属性：所有账户共用这一个
+'''
     
-    def __init__(self, owner, balance):
-        self.owner = owner      # ← 实例属性：每个账户各有一份
-        self.balance = balance  # ← 实例属性：每个账户各有一份
-        BankAccount.total_accounts += 1  # 每次创建实例，计数器+1
+'''def __init__(self, owner, balance):
+       self.owner = owner      # ← 实例属性：每个账户各有一份
+       self.balance = balance  # ← 实例属性：每个账户各有一份
+       BankAccount.total_accounts += 1  # 每次创建实例，计数器+1
 '''
 ### 3. 继承
 ```python
