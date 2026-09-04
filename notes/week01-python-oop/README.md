@@ -83,7 +83,8 @@ class ClassName:
     def __init__(self, owner, balance):
         self.owner = owner      # ← 实例属性：每个账户各有一份
         self.balance = balance  # ← 实例属性：每个账户各有一份
-        BankAccount.total_accounts += 1  # 每次创建实例，计数器+1'''
+        BankAccount.total_accounts += 1  # 每次创建实例，计数器+1
+'''
 ### 3. 继承
 ```python
 class ChildClass(ParentClass):
